@@ -6,7 +6,7 @@ const myObject ={
 }
 Object.freeze(myObject)
 
-myObject.age = 50  // This line will have effect
+myObject.age = 50  // This line will have  no effect
 
 console.log(myObject)
 
